@@ -26,7 +26,6 @@ print("flag{", end="")
 
 while count < len(cipher):
     if x(z(num)):
-        print(num)
         print(chr(int(cipher[count]) ^ z(num)), end="", flush=True)
         count += 1
     num += 1
